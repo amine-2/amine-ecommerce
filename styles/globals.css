@@ -58,7 +58,7 @@ width: 100%;
 }
 @keyframes marquee {
   from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  to { transform: translateX(-100%); }
 }
 
  span.text-red {
@@ -622,20 +622,21 @@ margin-top: 160px;
 @media screen and (max-width:800px) {
   .hero-banner-container{
     height: 560px;
+    padding: 63px 36px;
   }
   .hero-banner-image{
     width: 77%;
     height: 62%;
     top: -2%;
-    right: -6%;
+    right: 0;
   }
   .footer-banner-container{
     height: 560px;
     margin-top: 80px;
+    padding: 22px 19px;
   }
   .footer-banner-image{
     width: 77%;
-    left: 30%;
     top: 6%;
     height: 56%
   }
